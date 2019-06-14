@@ -48,5 +48,5 @@ def get_average_age_for_season(data, season)
     counterAge += actor["age"].to_f
   end
   return (counterAge / counter).round
-end	
+	
 end
